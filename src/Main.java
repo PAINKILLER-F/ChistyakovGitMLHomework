@@ -7,6 +7,10 @@ public class Main {
         int y = random.nextInt(66);
         System.out.println("Первое число: " + x);
         System.out.println("Второе число: " + y);
-        System.out.println("Сумма " + (x + y));
+        System.out.println("Сумма " + sumValues(x, y));
+    }
+
+    public static int sumValues(int firstValue, int secondValue) {
+        return firstValue + secondValue;
     }
 }
